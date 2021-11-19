@@ -1,8 +1,8 @@
 package main
 
 import (
+	"github.com/yourbrainrun/testlib/my_rand"
 	"testing"
-	"testlib/my_rand"
 )
 
 func TestRand(t *testing.T) {
