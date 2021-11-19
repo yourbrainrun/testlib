@@ -1,4 +1,2 @@
-# testlib
-int add int int 
-
-
+# test_lib
+set self package
