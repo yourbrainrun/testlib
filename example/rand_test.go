@@ -2,12 +2,12 @@ package main
 
 import (
 	"testing"
-	"testlib/rand"
+	"testlib/my_rand"
 )
 
 func TestRand(t *testing.T) {
-	if rand.GetRand() != 0 {
+	if my_rand.GetRand() != 0 {
 	} else {
-		t.Errorf("rand error")
+		t.Errorf("my_rand error")
 	}
 }
